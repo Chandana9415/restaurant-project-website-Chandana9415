@@ -1,3 +1,6 @@
+**Put your name and student ID here**
+*Thanks Dr. B*
+
 # Student Static Restaurant Website Project
 
 This *README* file will be something that you will eventually use to communicate with the teacher and grader. For now I'm just including the project and assignment rough draft information.
