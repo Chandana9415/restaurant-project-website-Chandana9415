@@ -1,4 +1,4 @@
-**Put your name and student ID here**
+**Chandana Bangalore Ravichandra  Ut8656**
 *Thanks Dr. B*
 
 # Student Static Restaurant Website Project
