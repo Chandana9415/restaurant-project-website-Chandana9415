@@ -15,25 +15,25 @@ A website can be one of the most cost effective forms of advertising for a small
 
 You will need to invent basic information such as:
 
-* The Restaurant's name
-* Location
-* Open Hours
+* The Restaurant's name  : Kiara's Specials
+* Location : San Fransisco
+* Open Hours : Monday to Friday 10 AM to 6 PM
 * Menu
 
 To give us more content, to later style, create the **menu** with at least four categories of items. Some categories that you might think of using:
 
-* Appetizers
-* Main courses
-* Soups
-* Salads
+* Appetizers : Coffee ( Hot/Cold), Tea ( Hot/ Cold), Milkshakes, Fruitjuice
+* Main courses: 
+* Soups :Tomato soup, corn soup, Chicken soup
+* Salads: Chicken chopped salad, veggie patty salad, ceasers salad
 * Naan (different types)
 * Curries
 * Meat
 * Fish
-* Vegetarian
+* Vegetarian:  schezwan noodles, pasta, sandwhiches
 * Other food types if your restaurant offers multiples, e.g., pizza, pasta
-* Deserts
-* Breakfast, Lunch, Dinner
+* Deserts: chocolate chip cookies, ice creams, ghiradeli specials
+* Breakfast, Lunch, Dinner 
 
 Come up with 3 to 10 items for each category. This is your restaurant so you can put whatever you like on the menu.  You **cannot** copy a menu from an existing restaurant. This is an **individual assignment** so every students restaurant must be unique.
 
