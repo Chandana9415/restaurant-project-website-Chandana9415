@@ -15,7 +15,7 @@ A website can be one of the most cost effective forms of advertising for a small
 
 You will need to invent basic information such as:
 
-* The Restaurant's name  : Kiara's Specials
+* The Restaurant's name  : 
 * Location : San Fransisco
 * Open Hours : Monday to Friday 10 AM to 6 PM
 * Menu
