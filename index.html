@@ -3,12 +3,20 @@
 
 <head>
 
-
-
 <style>
 
 * {
     box-sizing: border-box;
+}
+
+.button{
+background-color: black;
+color: white; 
+font-size: 17px; 
+text-align: center;
+border: 1px solid black;
+padding: 8px 20px;
+overflow: hidden;
 }
 
 .container {
@@ -35,19 +43,31 @@
     content: "";
     display: table;
     clear: both;
-align: right;
+	align: right;
 }
 
 body
 {
-background-color: lightpink;
-background-repeat: no-repeat;
-height: 100%;
-background-size: cover;
- margin-top: 0px; margin-right: 0px; margin-bottom: 20px; margin-left: 20px;
+	background-color: lightpink;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+	margin-top: 0px; margin-right: 0px; margin-bottom: 20px; margin-left: 20px;
 
 }
+.topnav {
+  overflow: hidden;
+  background-color:pink;
+   font-size:18px;
+
+}
+.topnav a.active {
+ color: black;
+ font-size:18px;
+}
 </style>
+
+
 <div class="container">
   <img src="https://stories.forbestravelguide.com/wp-content/uploads/2015/08/FTGBlog-NewSFRestaurants-DirtyWaterInterior-DirtyWater.jpg" style="width:100%;">
   <div class="centered">
@@ -64,18 +84,18 @@ CONFECTIONS AND PASTRIES
 	<h2> 10 AM to 6 PM weekdays </h2>
 </em>
 </div>
-  </div>
-  </div>
-
-
-
-
-
-
+</div>
+</div>
+<nav>
+<div class="topnav" align="center">
+  <a class="active" href="index.html">Home    </a>
+  <a href="customcakes.html">Custom Cakes</a>
+  <a href="contactus.html">Contact</a>
+  <a href="about.html">About</a>
+</div>
+</nav>
 </head>
 <body>
-
-
 
 
 <div class="column">
@@ -123,7 +143,7 @@ CONFECTIONS AND PASTRIES
 </ul>
 </div>
 
-	<div class="row" style="background-color:#F385DD;border: 5px solid white;">
+	<div class="row" style="background-color:#F385DD;border: 5px solid white">
 	
 	<h3><em> Eateries </em></h3>
 	<ul>
