@@ -2,9 +2,12 @@
 <html>
 
 <head>
-
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.css">
 <style>
-.container {
+.containers {
     position: relative;
     text-align: center;
     color:white;
@@ -40,20 +43,31 @@ body
     clear: both;
 	align: right;
 }
-.topnav {
-  overflow: hidden;
-  background-color:pink;
-  font-size:18px;
 
-}
-.topnav a.active {
- color: black;
- font-size:18px;
-}
 </style>
 
-<div class="container">
-  <img src="http://www.youne.com/wp-content/uploads/2013/10/chocolate-cake-with-summer-berries-770x513.jpg" style="width:100%;">
+
+</head>
+
+<body>
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" id="profile-tab" data-toggle="tab" href="customcakes.html" role="tab" aria-controls="profile" aria-selected="false">Custom Cakes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="contactus.html" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="about.html" role="tab" aria-controls="contact" aria-selected="false">About Us</a>
+  </li>
+</ul>
+
+<div class="containers">
+  <img src="http://www.youne.com/wp-content/uploads/2013/10/chocolate-cake-with-summer-berries-770x513.jpg" style="width:95%;"/>
   <div class="centered">
   <div align="center">
 <em>
@@ -68,19 +82,6 @@ Cakes For Any Occasion!
 </div>
 </div>
 </div>
-
-<nav>
-<div class="topnav" align="center">
-  <a  href="index.html">Home </a>
-  <a class="active" href="customcakes.html">Custom Cakes </a>
-  <a href="contactus.html">Contact </a>
-  <a href="about.html">About </a>
-</div>
-</nav>
-
-</head>
-
-<body>
 <br />
 
 
@@ -123,7 +124,8 @@ Premium filling options,
 Photo cakes.
 </em> </h2>
 
-
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.bundle.js" ></script>
 </body>
 
 </html>

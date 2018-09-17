@@ -2,8 +2,36 @@
 <html>
 
 <head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap.css"> 
+
 
 <style>
+.accordion {
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: pink; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+	overflow: hidden;
+}
 
 * {
     box-sizing: border-box;
@@ -19,7 +47,7 @@ padding: 8px 20px;
 overflow: hidden;
 }
 
-.container {
+.containers {
     position: relative;
     text-align: center;
     color:white;
@@ -31,20 +59,6 @@ overflow: hidden;
     transform: translate(-50%, -50%);
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px; 
-}
-
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-	align: right;
-}
 
 body
 {
@@ -55,21 +69,45 @@ body
 	margin-top: 0px; margin-right: 0px; margin-bottom: 20px; margin-left: 20px;
 
 }
-.topnav {
-  overflow: hidden;
-  background-color:pink;
-   font-size:18px;
 
-}
-.topnav a.active {
- color: black;
- font-size:18px;
-}
+
 </style>
 
 
-<div class="container">
-  <img src="https://stories.forbestravelguide.com/wp-content/uploads/2015/08/FTGBlog-NewSFRestaurants-DirtyWaterInterior-DirtyWater.jpg" style="width:100%;">
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="customcakes.html" role="tab" aria-controls="profile" aria-selected="false">Custom Cakes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="contactus.html" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="about.html" role="tab" aria-controls="contact" aria-selected="false">About Us</a>
+  </li>
+</ul>
+<button class="accordion">
+<div align="center">
+<strong>
+Knock! Knock! Who's there? >>Click for answer>>
+</strong>
+</div>
+
+ </button>
+<div class="panel" align="center">
+
+Ice Cream. Ice Cream who? Ice Cream if you dont let me in!
+</div>
+
+<br />
+<br />
+<br />
+
+
+<div class="containers">
+  <img src="https://stories.forbestravelguide.com/wp-content/uploads/2015/08/FTGBlog-NewSFRestaurants-DirtyWaterInterior-DirtyWater.jpg" style="width:95%;height: 95%;" />
   <div class="centered">
   <div align="center">
 <em>
@@ -86,66 +124,74 @@ CONFECTIONS AND PASTRIES
 </div>
 </div>
 </div>
-<nav>
-<div class="topnav" align="center">
-  <a class="active" href="index.html">Home    </a>
-  <a href="customcakes.html">Custom Cakes</a>
-  <a href="contactus.html">Contact</a>
-  <a href="about.html">About</a>
-</div>
-</nav>
+
 </head>
+
 <body>
 
 
-<div class="column">
-
-<div class="row" align="right">
-
-<br />
-
-<img src= "https://www.supergoldenbakes.com/wordpress/wp-content/uploads/2015/08/Bourbon_cola_cherry_smash_4_s.jpg" width="300" height="350"/>
 <br />
 <br />
-<img src= "https://www.cookwithmanali.com/wp-content/uploads/2018/04/Instant-Pot-Thai-Peanut-Noodles.jpg" width="300" height="350"/>
-<br />
-<br />
+<div class="container"> <!-- also try class="container-fluid" -->
 
-</div>
-</div>
 
-<div class="column" >
+	<div class="row">
+    <div class="col" style="margin-top: 40px;">
+	<img src= "https://www.supergoldenbakes.com/wordpress/wp-content/uploads/2015/08/Bourbon_cola_cherry_smash_4_s.jpg" width="300" height="350"/>
+   </div>
 
-<div class="row" style="background-color:#F3BF91;border: 5px solid white;">
-
-<h3><em> Beverages</em> </h3>
+	  
+	  
+	  
+	<div class="col">
+	<div style="background-color:#F3BF91;border:5px solid white;">
+	<br />
+	<div align="center">
+	<h3><em> Beverages</em> </h3> </div>
 <ul>
-<li> Coffee </li>
+	<li> Coffee </li>
 	<ul>
 	<li>Cappuccino</li>
 	<li> Black Coffee </li>
 	<li> Cold Coffee </li>
 	</ul>
 	
-<li> Tea </li>
+	<li> Tea </li>
 	<ul>
 	<li> Hot Tea </li>
 	<li> Iced Tea</li>
 	<li> Green Tea</li>
 	</ul>
-<li> Fountain drinks </li>
+	
+	<li> Fountain drinks </li>
 	<ul>
 	<li> Coca Cola </li>
 	<li> Mojito </li>
 	<li> Sprite </li>
 	</ul>	
-
-</ul>
-</div>
-
-	<div class="row" style="background-color:#F385DD;border: 5px solid white">
 	
-	<h3><em> Eateries </em></h3>
+<br />
+<br />
+</ul>
+	</div>	
+	</div>
+	
+	  
+    <div class="col"  style="margin-top: 40px;margin-left: 20px;">  
+	<img src= "https://www.supergoldenbakes.com/wordpress/wp-content/uploads/2016/07/Thermapen-398.jpg" width="300" height="350"/>
+	</div>
+	
+    </div>
+  
+  <br />
+  <br /> 
+  
+	<div class="row">
+    <div class="col">
+    <div style="background-color:#F385DD;border: 5px solid white;width: 350px; height: 350 px;">
+	<br />
+	<div align="center">
+	<h3><em> Eateries </em></h3>  </div>
 	<ul>
 		<li> Noodles </li>
 		<ul> 
@@ -167,17 +213,24 @@ CONFECTIONS AND PASTRIES
 		<li>Risotto </li> 
 		<li> Rice Crisper </li>
 		</ul>
-	
+	<br />
+	<br />
 		
 	</ul>
 
 	</div>
-
-
+    </div>
 	
+	 <div class="col" style="margin-top: 40px; margin-left: 20px;">
+	 <img src= "https://www.supergoldenbakes.com/wordpress/wp-content/uploads/2018/03/Pressure_cooker_Sweet_potato_soup-1-1.jpg" width="300" height="350"/> 
+     </div>
+	 <br />
 	
-  <div class="row" style="background-color:#AEB7F3;border: 5px solid white;">
-		<h3> <em> Dessert </em> </h3>
+	 <div class="col">
+	    <div style="background-color:#AEB7F3;border: 5px solid white;width: 350px; height: 350 px;">
+		<br />
+		<div align="center">
+		<h3> <em> Dessert </em> </h3> </div>
 <ul>
 		<li> Pastries </li>
 		<ul>
@@ -186,10 +239,10 @@ CONFECTIONS AND PASTRIES
 		<li> Macaroon </li>
 		</ul>
 		
-		<li> Ice-creams & Cookies </li>
+		<li> Ice-creams & Cookie s </li>
 		<ul>
 		<li> Hot Chocolate Fudge Brownie </li>
-		<li> Triple Chocolate Cookies with Truffle Cake </li>
+		<li> Chocolate Cookies with Truffle Cake </li>
 		<li> Cookies and Cream Ice-cream </li>
 		</ul>
 		
@@ -199,39 +252,41 @@ CONFECTIONS AND PASTRIES
 		<li> Crackers </li>
 		<li> Cupcakes </li>
 		</ul>
+		<br />
+		<br />
 </ul>
 
 </div>
-</div> 
-
-<div class="column">
-
-<div class="row">
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<img src= "https://www.supergoldenbakes.com/wordpress/wp-content/uploads/2018/03/Pressure_cooker_Sweet_potato_soup-1-1.jpg" width="300" height="350"/>
-<br />
-<br />
-<img src= "https://www.supergoldenbakes.com/wordpress/wp-content/uploads/2016/07/Thermapen-398.jpg" width="300" height="350"/>
-
-
 </div>
-
 </div>
+</div>
+  
+<!— All images are downloaded from google images of restaurants in san fransisco —>
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-<!— All images are downloaded from google images of look alike restaurants —>
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
 
-<br />
-<br />
-<br />
-<br />
-<br />
-
+</script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.bundle.js" ></script>
 </body>
 </html>
 
